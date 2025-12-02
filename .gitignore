@@ -41,3 +41,10 @@ Thumbs.db
 
 # Environment variables
 .env
+
+# Coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+*.cover
+coverage.xml
