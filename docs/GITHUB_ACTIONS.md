@@ -177,6 +177,12 @@ To use Slack instead of email:
 
 *CI/CD status badge displayed in the repository README*
 
+### Pipeline Success
+
+![Pipeline Success](images/pipeline-success.jpeg)
+
+*Successful CI/CD pipeline execution showing all tests passed*
+
 ---
 
 ## �📊 Test Coverage
