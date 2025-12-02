@@ -73,15 +73,3 @@ flake8 .
 Automated testing on Python 3.9, 3.10, and 3.11 with flake8 linting and code coverage tracking.
 
 See [CI/CD Documentation](docs/GITHUB_ACTIONS.md) for details.
-
-## 📝 License
-
-MIT License - see [LICENSE](https://opensource.org/licenses/MIT)
-
-## 👨‍💻 Author
-
-**Harman Singh** ([@sudo-hrmn](https://github.com/sudo-hrmn))
-
----
-
-Built with ❤️ using Flask & Vanilla JavaScript
