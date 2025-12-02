@@ -224,17 +224,6 @@ flake8 .
 ```
 
 ---
-
-## 📈 Workflow Badges
-
-Add these badges to your README to display build status:
-
-```markdown
-[![CI/CD Pipeline](https://github.com/sudo-hrmn/TaskFlow-Modern-Task-Management/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/sudo-hrmn/TaskFlow-Modern-Task-Management/actions/workflows/ci-cd.yml)
-```
-
----
-
 ## 🔍 Troubleshooting
 
 ### Common Issues
@@ -255,22 +244,6 @@ Add these badges to your README to display build status:
 - Verify secrets are set correctly
 - Check GitHub Actions logs for error messages
 - Try Slack notifications as an alternative
-
-#### 3. Coverage Reports Not Uploading
-
-**Problem**: Codecov token missing
-**Solution**: Add `CODECOV_TOKEN` to GitHub Secrets (optional for public repos)
-
-#### 4. Flake8 Errors
-
-**Problem**: Code style violations
-**Solution**: 
-```bash
-# Auto-fix some issues
-pip install autopep8
-autopep8 --in-place --aggressive --aggressive .
-```
-
 ---
 
 ## 📝 Workflow Configuration
@@ -288,17 +261,6 @@ None required (all configuration via GitHub Secrets)
 
 ### Timeout
 Default: 60 minutes (can be customized per job)
-
----
-
-## 🎯 Best Practices
-
-1. **Always run tests locally** before pushing
-2. **Keep secrets secure** - never commit them to the repository
-3. **Review failed workflows** immediately
-4. **Maintain high test coverage** (aim for >90%)
-5. **Update dependencies** regularly and run tests
-6. **Use workflow badges** in README for visibility
 
 ---
 
