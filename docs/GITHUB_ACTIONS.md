@@ -274,27 +274,3 @@ Default: 60 minutes (can be customized per job)
 
 ---
 
-## 📞 Support
-
-If you encounter issues with the CI/CD pipeline:
-
-1. Check the workflow logs in GitHub Actions
-2. Verify all secrets are configured correctly
-3. Ensure requirements.txt is up to date
-4. Test locally with the same Python version
-5. Review this documentation for setup steps
-
----
-
-## 📄 Related Files
-
-- [`/.github/workflows/ci-cd.yml`](file:///home/harman-singh/github-repo/.github/workflows/ci-cd.yml) - Main workflow file
-- [`/tests/test_app.py`](file:///home/harman-singh/github-repo/tests/test_app.py) - Test suite
-- [`/setup.cfg`](file:///home/harman-singh/github-repo/setup.cfg) - pytest & flake8 configuration
-- [`/requirements.txt`](file:///home/harman-singh/github-repo/requirements.txt) - Dependencies
-
----
-
-**Last Updated**: December 2, 2025  
-**Version**: 1.0.0  
-**Maintained by**: @sudo-hrmn
