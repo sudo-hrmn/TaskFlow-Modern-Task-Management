@@ -149,7 +149,35 @@ To use Slack instead of email:
 
 ---
 
-## 📊 Test Coverage
+## � Workflow Screenshots
+
+### Workflow Overview
+
+![Workflow Overview](images/workflow-overview.png)
+
+*Complete CI/CD pipeline showing all jobs (Test, Build, Deploy-Ready, Notify)*
+
+### Test Matrix - Multi-Version Testing
+
+![Test Matrix](images/test-matrix.png)
+
+*Automated testing across Python 3.9, 3.10, and 3.11 simultaneously*
+
+### Build Job Execution
+
+![Build Job](images/build-job.png)
+
+*Build verification ensuring application starts correctly*
+
+### README with CI/CD Badge
+
+![README Badge](images/readme-badge.png)
+
+*CI/CD status badge displayed in the repository README*
+
+---
+
+## �📊 Test Coverage
 
 Current test coverage: **97%**
 
